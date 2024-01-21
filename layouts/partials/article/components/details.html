@@ -28,6 +28,11 @@
     {{ $showFooter := or $showDate $showReadingTime }}
     {{ if $showFooter }}
     <footer class="article-time">
+        <div>
+            <img class="article-author-icon" src="/img/icon/{{ index .Site.Params.Custom.Authors .Params.author "icon"}}" />
+            {{ index .Site.Params.Custom.Authors .Params.author "name" }}
+        </div>
+
         {{ if $showDate }}
             <div>
                 {{ partial "helper/icon" "date" }}
