@@ -29,7 +29,7 @@
     {{ if $showFooter }}
     <footer class="article-time">
         <div>
-            <img class="article-author-icon" src="/img/icon/{{ index .Site.Params.Custom.Authors .Params.author "icon"}}" />
+            <img class="article-author-icon" src="/img/icon/{{ index .Site.Params.Custom.Authors .Params.author "icon"}}" alt="author icon" />
             {{ index .Site.Params.Custom.Authors .Params.author "name" }}
         </div>
 
