@@ -4,6 +4,8 @@
 
 - ロゴを追加
 - 記事の作者を表示できるように
+- リンクに関するデザインを変更
+- 改行タイミングを `break-word` -> `break-all` に
 
 # Hugo Theme Stack
 
