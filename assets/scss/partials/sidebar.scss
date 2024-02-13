@@ -138,6 +138,10 @@
         @include respond(2xl) {
             font-size: 1.8rem;
         }
+
+        & a {
+            color: var(--accent-color);
+        }
     }
 
     .site-description {

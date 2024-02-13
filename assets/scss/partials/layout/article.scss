@@ -71,16 +71,16 @@
                 text-transform: unset;
             }
 
-            .article-copyright,
-            .article-lastmod {
-                a {
-                    color: var(--body-text-color);
-                }
+            // .article-copyright,
+            // .article-lastmod {
+            //     a {
+            //         color: var(--body-text-color);
+            //     }
 
-                a.link {
-                    box-shadow: unset;
-                }
-            }
+            //     a.link {
+            //         box-shadow: unset;
+            //     }
+            // }
         }
     }
 }
